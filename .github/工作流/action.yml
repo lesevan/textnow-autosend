@@ -25,3 +25,4 @@ jobs:
           TEXTNOW_MESSAGE: ${{secrets.TEXTNOW_MESSAGE}} # 获取并设置定义好的发送的信息内容环境变量值
         run: |
           node index.js
+ 
